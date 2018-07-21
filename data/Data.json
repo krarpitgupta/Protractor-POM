@@ -1,0 +1,15 @@
+{
+  "testsiteurl": "http://10.226.0.219:4200",
+  "HomePage": {
+    "TextField": "This is text field",
+    "TextArea": "This is text area",
+    "moduleName": "leave",
+    "menuName": "MyLeave",
+    "moduleNameEdit": "leaveEdit",
+    "menuNameEdit": "MyLeaveEdit",
+    "formName" : "MyForm",
+    "appName" : "AppHRIS",
+    "appforModule" : "AModule"
+
+  }
+}

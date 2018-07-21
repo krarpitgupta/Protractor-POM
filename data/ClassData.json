@@ -1,0 +1,11 @@
+{
+    
+    "ClassPage": {
+      "TextField": "This is text field",
+      "TextArea": "This is text area",
+    "className": "classData",
+    "classcode": "classData.code",
+    "classNameEdit": "ClassDataedit"
+    }
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "testsiteurl": "http://10.226.0.219:4400",
+    "HomePage": {
+      "TextField": "This is text field",
+      "TextArea": "This is text area"
+    
+    }
+  }
+  

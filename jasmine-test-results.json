@@ -1,0 +1,125 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Verify Form Page is displayed",
+        "fullName": "Verify Form Page is displayed",
+        "failedExpectations": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec0",
+                "description": "Navigate to Form Page",
+                "fullName": "Verify Form Page is displayed Navigate to Form Page",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "status": "passed"
+            },
+            {
+                "id": "spec1",
+                "description": "Click on form link",
+                "fullName": "Verify Form Page is displayed Click on form link",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "startTime": "2017-12-14T04:50:18.780Z",
+                "status": "passed",
+                "endTime": "2017-12-14T04:50:19.504Z"
+            },
+            {
+                "id": "spec2",
+                "description": "Verify Form List Present",
+                "fullName": "Verify Form Page is displayed Verify Form List Present",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "startTime": "2017-12-14T04:50:19.504Z",
+                "status": "passed",
+                "endTime": "2017-12-14T04:50:20.113Z"
+            }
+        ]
+    },
+    "suite2": {
+        "id": "suite2",
+        "description": "Verify that user is able to create a form",
+        "fullName": "Verify that user is able to create a form",
+        "failedExpectations": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec3",
+                "description": "Verify create form functionality",
+                "fullName": "Verify that user is able to create a form Verify create form functionality",
+                "failedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Expected false to be true.",
+                        "stack": "Error: Failed expectation\n    at BaseClass.verifyElementPresent (D:\\Jitendra\\altone_qc\\gui\\commands\\BaseClass.js:97:37)\n    at FormPage.createForm (D:\\Jitendra\\altone_qc\\gui\\pages\\FormPage.js:50:18)\n    at UserContext.<anonymous> (D:\\Jitendra\\altone_qc\\gui\\test_spec\\FormPageTest.js:30:19)\n    at C:\\Users\\Automators.""\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\Automators.""\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\Automators.""\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\Automators.""\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\Automators.""\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Automators.""\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)",
+                        "passed": false,
+                        "expected": true,
+                        "actual": false
+                    }
+                ],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "startTime": "2017-12-14T04:50:20.128Z",
+                "status": "failed",
+                "endTime": "2017-12-14T04:50:26.886Z"
+            }
+        ]
+    },
+    "suite3": {
+        "id": "suite3",
+        "description": "Verify that user is able to edit a form using drag and drop",
+        "fullName": "Verify that user is able to edit a form using drag and drop",
+        "failedExpectations": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec4",
+                "description": "Verify user is able to drop a textfield",
+                "fullName": "Verify that user is able to edit a form using drag and drop Verify user is able to drop a textfield",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "startTime": "2017-12-14T04:50:26.886Z",
+                "status": "passed",
+                "endTime": "2017-12-14T04:50:30.352Z"
+            }
+        ]
+    },
+    "suite4": {
+        "id": "suite4",
+        "description": "Verify that user is able to enter details in form after drag and drop",
+        "fullName": "Verify that user is able to enter details in form after drag and drop",
+        "failedExpectations": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec5",
+                "description": "Verify that user is able create a record",
+                "fullName": "Verify that user is able to enter details in form after drag and drop Verify that user is able create a record",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "startTime": "2017-12-14T04:50:30.352Z",
+                "status": "passed",
+                "endTime": "2017-12-14T04:50:37.381Z"
+            }
+        ]
+    }
+}

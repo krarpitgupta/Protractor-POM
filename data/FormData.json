@@ -1,0 +1,10 @@
+{
+  "FormPage": {
+    "formName" : "MyForm",
+    "fieldLabel" : "LeaveCount",
+    "fieldName" : "Leave",
+    "fieldValue":"0",
+    "instruction":"Leave Instruction",
+    "fieldHelpText": "Leave Instruction"
+  }
+}

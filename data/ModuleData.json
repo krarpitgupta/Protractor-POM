@@ -1,0 +1,16 @@
+{
+
+    "ModulePage": {
+      "TextField": "This is text field",
+      "TextArea": "This is text area",
+      "moduleName": "leave",
+      "menuName": "MyLeave",
+      "moduleNameEdit": "MleaveEdit",
+      "menuNameEdit": "MyMLeaveEdit",
+      "formName" : "MyForm",
+      "appName" : "Appmodule",
+      "appforModule" : "MModule"
+  
+    }
+  }
+  

@@ -1,0 +1,11 @@
+{
+
+  "PackagePage": {
+    "TextField": "This is text field",
+    "TextArea": "This is text area",
+    "packageName": "package1",
+    "packageCode": "packagecode"
+
+  }
+
+}
